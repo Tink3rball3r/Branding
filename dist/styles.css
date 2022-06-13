@@ -296,7 +296,7 @@ About
 .about_left_img {
 	width: 80%;
 	position: absolute;
-	top: 20rem;
+	top: 15rem;
 	left: 50%;
 	transform: translate(-50%);
 }
@@ -324,7 +324,7 @@ About
 .about_right {
 	width: 80%;
 	position: absolute;
-	bottom: 1rem;
+	bottom: 0;
 	left: 50%;
 	transform: translate(-50%);
 }
