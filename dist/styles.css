@@ -286,20 +286,24 @@ services
 About
 ======
 */
+
 .about {
 	position: relative;
 	margin: 40rem 0 0 0;
-	/* height: 100vh; */
+	height: 100vh;
 }
 
 .about_left_img {
 	width: 80%;
-	margin: 0 auto;
+	position: absolute;
+	top: 20rem;
+	left: 50%;
+	transform: translate(-50%);
 }
 .gray_box {
 	position: absolute;
-	top: -20rem;
-	bottom: 28rem;
+	top: 0rem;
+	bottom: 40rem;
 	left: 0;
 	right: 0;
 	background-color: var(--bg-dk);
@@ -319,7 +323,10 @@ About
 
 .about_right {
 	width: 80%;
-	margin: 4rem auto 8rem auto;
+	position: absolute;
+	bottom: 10rem;
+	left: 50%;
+	transform: translate(-50%);
 }
 
 .about_right p {
@@ -650,15 +657,6 @@ For tablets
 		font-size: 1.8rem;
 	}
 
-	.about {
-		margin: 60rem 0 0 0;
-	}
-
-	.about_left_img {
-		width: 80%;
-		margin: 0 auto;
-	}
-
 	.gray_box h2 {
 		color: var(--font-lt);
 		text-align: center;
@@ -671,9 +669,8 @@ For tablets
 		text-align: center;
 	}
 
-	.about_right {
-		width: 80%;
-		margin: 4rem auto 8rem auto;
+	.about {
+		margin: 50rem 0 0 0;
 	}
 
 	.about_right p {
@@ -839,24 +836,26 @@ For laptops
 
 	.about {
 		display: flex;
-		margin: 50rem 0 0 0;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.about_right {
+		position: static;
 		width: 40%;
-		align-self: center;
+		margin: 0;
 	}
 
 	.about_left_img {
-		width: 40%;
-		margin: 0 0 0 28rem;
+		position: static;
+		width: 35%;
+		margin: 0 0 0 45rem;
 	}
 
 	.gray_box {
-		width: 60%;
-		right: 40rem;
-		top: 2rem;
-		bottom: 2rem;
+		width: 58%;
+		top: 32rem;
+		bottom: 35rem;
 	}
 
 	.gray_box h2 {
