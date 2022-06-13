@@ -324,7 +324,7 @@ About
 .about_right {
 	width: 80%;
 	position: absolute;
-	bottom: 10rem;
+	bottom: 7rem;
 	left: 50%;
 	transform: translate(-50%);
 }
